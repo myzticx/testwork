@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./style.css";
 
-function App() {
+function MyComponent() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <div style={{ flex: 1 }}>
+        <h1 style={{ fontWeight: "bold" }}>
+          <span className="core-partnership">
+            ㅤㅤㅤFind a carer your ㅤㅤㅤㅤㅤㅤ
+          </span>
+          <span className="core-discipline">family will love</span>
+        </h1>
+
+        <p style={{ fontWeight: "bold" }}></p>
+        <p>ㅤㅤㅤㅤㅤㅤㅤㅤContact trusted and experienced carers near you</p>
+        <input type="text" placeholder="Enter your postal code" />
+      </div>
+      <div style={{ flex: 1, marginRight: "40px" }}>
+        <img
+          src="curamcare.webp"
+          alt="Curam Care"
+          style={{ width: "100%", marginTop: "40px", marginRight: "40px" }}
+        />
+      </div>
     </div>
   );
 }
 
-export default App;
+{
+  const MyComponent = () => console.log();
+}
+
+export default MyComponent;

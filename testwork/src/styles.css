@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Header styles */
+.header {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .header .nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header .nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .header .nav li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Main styles */
+  .main {
+    padding: 20px;
+  }
+  
+  .main h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+  }
+  
